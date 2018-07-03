@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/akrobat_regular/akrobat_regular.css">
+    <link rel="stylesheet" href="fonts/akrobat_bold/akrobat_bold.css">
+    <link rel="stylesheet" href="fonts/AGLettericaLightCondensedC/AGLettericaLightCondensedC.css">
+    <link rel="stylesheet" href="fonts/aglettericacondensedcregular/aglettericacondensedcregular.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Клиники звездная</title>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU">
+    </script>
+</head>
+
+<body>
+<header>
+    <div class="top_header">
+        <div class="container">
+            <div class="d-flex">
+                <a class="logo" href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <p class="address">г. Санкт-Петербург, Московское шоссе, д 5</p>
+                <p class="time">Пн-Пт 8:00 - 20:00, Сб-Вс 10:00 - 18:00</p>
+                <a href="tel:+78124073232" class="number">+7 (812) 407-32-32</a>
+            </div>
+            <div class="hamburger">
+                <a href="#" data-toggle="body" id="sidebar-toggle">
+                    <div id="nav-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_header">
+        <div class="container">
+            <nav class="d-flex">
+                <div class="nav_item drop-down">
+                    <a href="specialists.html">Специалисты</a>
+                    <ul class="dropmenu">
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_item active drop-down">
+                    <a href="directions.html">Направления</a>
+                    <ul class="dropmenu">
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_item drop-down">
+                    <a href="price.html">Услуги и цены</a>
+                    <ul class="dropmenu">
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                        <li>
+                            <a href="#">Санкт-Петербург</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_item">
+                    <a href="about.html">О Клинике</a>
+                </div>
+                <div class="nav_item">
+                    <a href="contacts.html">Контакты</a>
+                </div>
+                <div class="btn-nav_box d-flex">
+                    <a class="btn-nav" href="#" data-remodal-target="modal">Записаться на прием</a>
+                </div>
+            </nav>
+            <a href="tel:+78124073232" class="number">+7 (812) 407-32-32</a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="promo_block" style="background-image: url(img/promo_ded.jpg);">
+        <div class="container">
+            <div class="promo_inset">
+                <h2 class="promo_title">Здоровый малыш</h2>
+                <p class="promo_text">Выявление пороков сердца у
+                    <br>новорожденных и детей до 1 года</p>
+                <a class="promo_btn" href="#">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="price_block">
+        <div class="container">
+            <div class="box_center">
+                <h3 class="main_title">Услуги и цены</h3>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Поиск">
+            </form>
+            <div class="services d-flex">
+                <div class="letters_box">
+                    <div class="letter-item">
+                        <h3>А</h3>
+                        <div class="d-flex">
+                            <span>Акушерство, гинекология</span>
+                        </div>
+                        <div class="d-flex">
+                            <span>Аллергология и иммунология</span>
+                        </div>
+                        <div class="d-flex">
+                            <span>Анализы</span>
+                        </div>
+                    </div>
+                    <div class="letter-item">
+                        <h3>Г</h3>
+                        <div class="d-flex">
+                            <span>Гастроэнтеролог</span>
+                        </div>
+                    </div>
+                    <div class="letter-item">
+                        <h3>Д</h3>
+                        <div class="d-flex">
+                            <span>Дерматолог</span>
+                        </div>
+                    </div>
+                    <div class="letter-item">
+                        <h3>К</h3>
+                        <div class="d-flex">
+                            <span>Кардиолог</span>
+                        </div>
+                    </div>
+                    <div class="letter-item">
+                        <h3>Л</h3>
+                        <div class="d-flex">
+                            <span>Лабораторные исследования</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="letters_box">
+                    <div class="letter-item">
+                        <h3>Н</h3>
+                        <div class="d-flex">
+                            <span>Невролог</span>
+                        </div>
+                    </div>
+                    <div class="letter-item">
+                        <h3>П</h3>
+                        <div class="d-flex">
+                            <span>Педиатр</span>
+                            <div class="doctor_box">
+                                <h4>Педиaтр</h4>
+                                <div class="doctor_box--item">
+                                    <u>Федюкович Людмила Васильевна</u>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Первичный прием</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>повторный прием</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="box_center">
+                                        <a href="#" class="enroll_btn">Записаться на прием</a>
+                                    </div>
+                                </div>
+                                <div class="doctor_box--item">
+                                    <u>Федюкович Людмила Васильевна</u>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Первичный прием</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>повторный прием</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="box_center">
+                                        <a href="#" class="enroll_btn">Записаться на прием</a>
+                                    </div>
+                                </div>
+                                <div class="doctor_box--item">
+                                    <u>Федюкович Людмила Васильевна</u>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Первичный прием</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Первичный прием</td>
+                                                <td>
+                                                    <span>1001110руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>повторный прием</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="box_center">
+                                        <a href="#" class="enroll_btn">Записаться на прием</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letters_box">
+                    <div class="letter-item">
+                        <h3>Т</h3>
+                        <div class="d-flex">
+                            <span>Терапевт</span>
+                        </div>
+                        <div class="d-flex">
+                            <span>Травмотолог-ортопед</span>
+                        </div>
+                    </div>
+                    <div class="letter-item">
+                        <h3>У</h3>
+                        <div class="d-flex">
+                            <span>Узи</span>
+                            <div class="operation_box">
+                                <h4>Узи</h4>
+                                <div class="operation_box--item">
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Узи щитовидной железы</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="operation_box--item">
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Узи щитовидной железы</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="operation_box--item">
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Узи щитовидной железы</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="operation_box--item">
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td> УЗИ органов малого таза девочкам до 18 лет (трансабдоминально или/и трансректально или/и вагинально)</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="operation_box--item">
+                                    <table class="table-price">
+                                        <tbody>
+                                            <tr class="price-element">
+                                                <td>Узи щитовидной железы</td>
+                                                <td>
+                                                    <span>1000руб</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="box_center">
+                                    <a href="#" class="enroll_btn">Записаться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="top_footer">
+        <div class="container">
+            <a href="specialists.html">Специалисты</a>
+            <a href="directions.html">Отделения</a>
+            <a href="price.html">Услуги и цены</a>
+            <a href="about.html">О клинике</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+    </div>
+    <div class="bottom_footer">
+    </div>
+</footer>
+<div class="remodal" data-remodal-id="modal">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h2 class="main_title">Записаться на прием</h2>
+    <form action="#">
+        <div class="d-flex">
+            <input type="text" placeholder="Фио">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="Выбрать врача">
+            <select name="select" id="select">
+                <option selected="">Пункт 1</option>
+                <option>Пункт 2</option>
+            </select>
+            <select name="select" id="select">
+                <option selected="">Пункт 1</option>
+                <option>Пункт 2</option>
+            </select>
+        </div>
+        <div class="box_center">
+            <button class="enroll_btn">Записаться на прием</button>
+        </div>
+    </form>
+</div>
+<script src="js/main.js"></script>
+</body>
+
+</html>

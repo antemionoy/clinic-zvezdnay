@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'aglettericalightcondensedcRg';
+    src: url('aglettericalightcondensedc-webfont.eot');
+    src: url('aglettericalightcondensedc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aglettericalightcondensedc-webfont.woff2') format('woff2'),
+         url('aglettericalightcondensedc-webfont.woff') format('woff'),
+         url('aglettericalightcondensedc-webfont.svg#aglettericalightcondensedcRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

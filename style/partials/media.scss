@@ -1,0 +1,540 @@
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .main_title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .enroll_btn {
+        max-width: 100%;
+        padding: 10px;
+        min-height: 50px;
+        font-size: 14px;
+    }
+
+    .promo_btn {
+        max-width: 100%;
+        padding: 5px 50px;
+    }
+
+    .top_header {
+        padding: 10px 15px;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.21);
+        z-index: 10;
+        position: relative;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .drop-down:after {
+        display: none;
+    }
+
+
+    .enroll {
+        padding: 10px 0px 20px;
+
+        .d-flex {
+            flex-direction: column;
+        }
+
+        form {
+            margin: 20px 0px 0px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+    }
+
+    .enroll form input {
+        flex: 0 0 100%;
+    }
+
+    .reviews {
+        .reviews_items {
+            flex-direction: column;
+            margin: 20px 0px 0px;
+            .review {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-bottom: 25px;
+                line-height: 30px;
+                padding: 5px;
+                font-size: 18px;
+            }
+
+            .rew_person {
+                padding: 15px 15px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .our_specialists {
+        padding: 22px 0px 40px;
+
+        .specialist_name span {
+            font-size: 24px;
+        }
+        .specialist {
+            margin: 20px 0px 0px;
+        }
+    }
+
+    .specialists-items {
+        flex-direction: column;
+    }
+
+    .contacts_block {
+        padding: 15px 0px 20px;
+        .d-flex {
+            flex-direction: column;
+            margin: 20px 0px 0px;
+
+            div {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .address_work {
+        border-right: none;
+        border-bottom: 1px solid #d7d7d7;
+    }
+
+    footer a {
+        display: block;
+    }
+
+    footer .top_footer {
+        padding: 15px;
+    }
+
+    header .top_header .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .services {
+        flex-wrap: wrap;
+
+        .letters_box {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 0;
+        }
+    }
+
+    .price_block {
+        padding-top: 20px;
+    }
+
+    .letter-item .d-flex {
+        >span {
+            font-size: 20px;
+        }
+
+        .doctor_box--item {
+            u {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .table-price {
+        font-size: 16px;
+        margin: 0px 30px 5px;
+    }
+
+    .vacancy_box {
+        padding: 30px 0px 20px;
+
+        .vacancy_sections {
+            flex-direction: column;
+
+            section {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .news_block {
+        .news_items {
+            flex-direction: column;
+            .news {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin: 0px 0px 40px;
+                padding: 0px;
+
+                p {
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
+    .news {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+        .news_date {
+            font-size: 40px;
+        }
+        .news_mode {
+            font-size: 24px;
+        }
+    }
+
+    .news_full {
+
+        .d-flex {
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .news {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .news_img {
+                margin: 0px 15px;
+            }
+        }
+    }
+
+
+    .specailist_page {
+
+        .specialist_info {
+            flex-direction: column;
+            align-items: stretch;
+            align-content: stretch;
+            padding: 20px 0px 0px;
+
+
+            .specialist_avatar {
+                margin: 0 0px 20px;
+                flex: 0 0 100%;
+
+            }
+
+            .specialist_title{
+                font-size: 40px;
+            }
+
+            .special_line{
+                margin: 20px 0px 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .promo_block {
+        height: 300px;
+    }
+
+    .promo_block:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(#000, 0.2);
+        z-index: 0;
+    }
+
+    .promo_block .promo_title {
+        font-size: 32px;
+    }
+
+    .promo_block .promo_text {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    header {
+        .address,
+        .time {
+            display: none;
+        }
+    }
+
+    main {
+        margin: 72px 0px 0px;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 110;
+        background: #fff;
+
+        .top_header {
+            padding: 10px 0px 25px;
+            box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.21);
+
+            .d-flex {
+                height: auto;
+                align-content: flex-start;
+                align-items: flex-start;
+            }
+
+            .logo {
+                img {
+                    width: 140px;
+                }
+            }
+
+            .number {
+                display: none;
+            }
+        }
+
+        .bottom_header {
+            display: none;
+            a {
+                font-size: 20px;
+            }
+            .d-flex {
+                flex-direction: column;
+                margin: 0;
+                padding: 10px 15px;
+                height: auto;
+
+
+                .nav_item {
+                    margin-bottom: 10px;
+                    line-height: 30px;
+                }
+
+                .dropmenu {
+                    display: none;
+                }
+
+                .btn_nav_box {
+                    padding: 0px 15px;
+                }
+
+                .btn-nav {
+                    padding: 0px 15px;
+                    font-size: 14px;
+                }
+            }
+
+            .number {
+                text-align: center;
+                display: block;
+                margin: 0px 0px 10px;
+            }
+        }
+    }
+
+    .callback {
+        margin: 10px 0px 20px;
+    }
+
+    .about_clinic {
+        padding: 0px 0px 0px;
+    }
+
+    .main-slider.owl-carousel {
+        position: static;
+        margin: 0px 0px 20px;
+    }
+
+    .main-slider .owl-dots,
+    .slider-pic .owl-dots {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-slider .owl-dot,
+    .slider-pic .owl-dot {
+        width: 12px;
+        height: 12px;
+        background-color: #208dcc;
+        border-radius: 50%;
+        margin: 0px 5px;
+    }
+
+    .main-slider .owl-dot.active,
+    .slider-pic .owl-dot.active {
+        background-color: #997cfc;
+    }
+
+    .slider-pic.owl-carousel img {
+        height: 300px;
+    }
+
+    .enroll form input {
+        margin: 0px 20px 20px;
+    }
+
+    .drop-down:after {
+        display: none;
+    }
+    .enroll form .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        input,
+        select {
+            flex: 0 0 52px;
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    header {
+        .address,
+        .time {
+            display: none;
+        }
+    }
+    .directions_block--inset {
+        flex-wrap: wrap;
+        section {
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            line-height: 28px;
+
+
+            .direct_img {
+                float: none;
+                align-self: center;
+                margin: 0 0 20px;
+            }
+        }
+
+        aside {
+            text-align: center;
+            padding: 0px 15px 15px;
+            flex: 0 0 100%;
+            a {
+                word-wrap: break-word;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .licenses {
+        padding: 10px 0px 50px;
+
+        .licenses_items {
+            margin: 20px 0px 0px;
+        }
+
+        .licenses--item {
+            margin: 0px 5px;
+
+            img {
+                max-height: inherit;
+            }
+        }
+    }
+
+    .main-slider .owl-nav.disabled,
+    .main-slider .owl-nav {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .promo_block {
+        height: 450px;
+    }
+
+    .our_specialists .specialists-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .specialist {
+            margin: 15px 10px;
+        }
+    }
+    .specialist {
+        width: 300px;
+    }
+
+    .price_block input {
+        margin: 15px 15px 20px;
+    }
+
+    .services {
+        flex-wrap: wrap;
+
+        .letters_box {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0px 15px 0px;
+        }
+    }
+
+    .specialist_text .specialist_title{
+        font-size: 44px;
+    }
+}
+
+
+@media (min-width: 1023px) and (max-width: 1200px) {
+    .our_specialists .specialists-items {
+        justify-content: center;
+        .specialist {
+            margin: 15px 10px;
+        }
+    }
+
+    .enroll form .d-flex {
+        justify-content: center;
+        input,
+        select {
+            margin: 10px 10px;
+            flex: 1 1 330px;
+        }
+    }
+
+    .directions_block--inset {
+
+        aside {
+            flex: 0 0 320px;
+
+            a {
+                font-size: 24px;
+            }
+        }
+
+        section {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1023px) {
+    header .bottom_header {
+        display: block !important;
+    }
+}

@@ -1,0 +1,93 @@
+.nav_item a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.socials a:hover {
+    text-decoration: none;
+}
+
+header .btn-nav:hover {
+    text-decoration: none;
+}
+
+header .btn-nav_box:hover {
+    background-color: #5344ce;
+}
+
+header .dropmenu a:hover {
+    color: rgba(#000, 0.7);
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.drop-down:hover .dropmenu {
+    height: auto !important;
+    padding: 5px 0px;
+    transition: all 0.3s ease-out;
+}
+
+.number:hover{
+    text-decoration: none;
+    color: #208dcc;
+}
+
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.enroll_btn:hover,
+.enroll_btn:focus{
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(#000, 0.45);
+    background-color:  #27afff;
+    transition: all 0.9s;
+    text-decoration: none;
+}
+
+aside a:hover,
+aside a:focus{
+    color: #312783;
+}
+
+.promo_btn:hover,
+.promo_btn:focus{
+    background-color: #312783;
+    color: #fff;
+    text-decoration: none;
+}
+
+.news_items a:hover,
+.news_items a:focus{
+    text-decoration: none;
+}
+
+.bottom_header:hover,
+.bottom_header:focus{
+    color: #000;
+}
+
+.nav_item.active > a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.main-slider .owl-nav .owl-prev:hover,
+.main-slider .owl-nav .owl-next:hover {
+    background-color: rgba(#fff, 1);
+    transition: 0.4s;
+}
+
+.owl-item:hover *{
+    text-decoration: none;
+}
+
+
+.specialist:hover{
+    text-decoration: none;
+    border: 1px solid #208dcc;
+    transition: 0.9s;
+}
+
